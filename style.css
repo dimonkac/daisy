@@ -161,13 +161,19 @@ p {
   align-items: center;
 }
 .second-romb {
-  background-image: url(./img/Фигура\ 3\ копия@1X.png);
+  /* background-image: url(./img/Фигура\ 3\ копия@1X.png); */
   width: 92px;
   height: 106px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 .racet {
   margin: auto;
+}
+.svgImg {
+  position: absolute;
 }
 .line {
   background-color: #adadad;
