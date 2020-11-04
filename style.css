@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+.first {
+  background: url(img/Слой_17.png) no-repeat center center/cover;
+  height: 766px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont {
+  width: 100%;
+  height: 766px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logoAndNav {
+  margin: 23px 161px 190px 160px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.logo {
+  background: url(img/Прямоугольник_3.png);
+  width: 59px;
+  height: 68px;
+  display: flex;
+  position: relative;
+}
+.textlogo {
+  font-size: 40px;
+  margin: auto;
+}
+
+.nametext {
+  position: absolute;
+  top: -29px;
+  left: 70px;
+  font-size: 40px;
+  color: white;
+}
+.nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 422px;
+  height: 22px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  z-index: 1;
+}
+.nav > a {
+  color: white;
+}
+.lozung {
+  width: 100%;
+  height: 197px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+.client {
+  text-transform: uppercase;
+  font-size: 51px;
+  margin: 11px 0 27px 0;
+  color: white;
+}
+.redText {
+  color: #fc635e;
+}
+.YiurClient {
+  font-size: 24px;
+  margin-top: 5px;
+}
+.Iwont {
+  width: 206px;
+  height: 57px;
+  border: 2px solid #fc635e;
+  color: #fc635e;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 8px;
+}
+.containerMouse {
+  margin-top: 18px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+.mouseImg {
+  margin-top: 20px;
+}
+.second {
+  background-color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 0 90px;
+}
+.what {
+  text-align: center;
+  text-transform: uppercase;
+  color: #868686;
+}
+.what > span {
+  color: #fc635e;
+}
+.linea {
+  width: 338px;
+  height: 2px;
+  background-color: #adadad;
+  margin: 10px 0 20px;
+}
+.DaisiIs {
+  width: 557px;
+  height: 45px;
+  word-wrap: break-word;
+  font-size: 20px;
+  color: #b9b9b9;
+}
+.containerRomb {
+  width: 935px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+}
+.rombs {
+  width: 202px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.romb-img {
+  background-image: url(./img/Фигура\ 3@1X.png);
+  width: 102px;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-romb {
+  background-image: url(./img/Фигура\ 3\ копия@1X.png);
+  width: 92px;
+  height: 106px;
+  display: flex;
+}
+.racet {
+  margin: auto;
+}
+.line {
+  background-color: #adadad;
+  width: 59px;
+  height: 2px;
+  margin: 11px 0 20px;
+}
+
+.rombs > h3 {
+  font-size: 20px;
+  color: #868686;
+  margin-top: 21px;
+}
+.rombs > h4 {
+  font-size: 15px;
+  color: #adadad;
+}
+.third {
+  background: url(./img/Слой_18.png) no-repeat center center/cover;
+  width: 100%;
+  height: 600px;
+}
+.cotainer {
+  width: 100%;
+  height: 100%;
+  background: url(./img/Прямоугольник_1.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-container {
+  width: 941px;
+  height: 385px;
+  border: 8px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-container > p {
+  font-size: 51px;
+  text-transform: uppercase;
+  color: #fc635e;
+  margin-bottom: 50px;
+}
+.content-container > p > span {
+  font-size: 51px;
+  text-transform: uppercase;
+  color: white;
+}
+.fourth {
+  height: 840px;
+  display: flex;
+}
+.fourth > p {
+  font-size: 28px;
+  color: #868686;
+  text-transform: uppercase;
+  text-align: center;
+}
+.fourth > p > span {
+  font-size: 28px;
+  color: #fc635e;
+}
+.lyne {
+  width: 184px;
+  height: 2px;
+  background-color: aliceblue;
+  align-items: center;
+}
