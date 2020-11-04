@@ -169,12 +169,17 @@ p {
   justify-content: center;
   position: relative;
 }
-.racet {
-  margin: auto;
-}
+
 .svgImg {
   position: absolute;
 }
+.romb-img:hover .second-romb {
+  fill: white;
+}
+.romb-img:hover .svgImg {
+  fill: #fc635e;
+}
+
 .line {
   background-color: #adadad;
   width: 59px;
