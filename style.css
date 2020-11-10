@@ -232,20 +232,162 @@ p {
 .fourth {
   height: 840px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.fourth > p {
+.firstPSectionFour {
   font-size: 28px;
   color: #868686;
   text-transform: uppercase;
   text-align: center;
+  position: relative;
+  margin-top: 50px;
 }
 .fourth > p > span {
   font-size: 28px;
   color: #fc635e;
 }
-.lyne {
-  width: 184px;
-  height: 2px;
-  background-color: aliceblue;
+
+.firstPSectionFour:after {
+  width: 190px;
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #adadad;
+  top: 36px;
+  left: 0;
+}
+.secondPSectionFour {
+  font-size: 20px;
+  color: #868686;
+  text-align: center;
+  margin: 20px 326px 0;
+}
+.hexagonContainer {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  width: 784px;
+  height: 551px;
+  padding-top: 140px;
+}
+.hexagon1 {
+  background-image: url(./img/svg/hexagon.svg);
+  width: 175px;
+  height: 202px;
+  display: flex;
   align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.hexagon_name {
+  margin-top: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #868686;
+  position: relative;
+}
+.hexagon1 > object {
+  width: 175px;
+  height: 153px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hexagon_name:after {
+  content: "";
+  width: 77px;
+  height: 2px;
+  border-bottom: 2px solid #adadad;
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+.hexagon_name > span {
+  font-size: 24px;
+  color: #fc635e;
+}
+.p_hexagon {
+  color: #9f9f9f;
+  font-size: 15px;
+  margin: 10px 14px 0 14px;
+  text-align: center;
+}
+.hexagon2 {
+  background-image: url(./img/Слой_4.png);
+  width: 263px;
+  height: 303px;
+  margin: 150px 0 0 -133px;
+  position: relative;
+}
+.hexagon2 > object {
+  position: absolute;
+  top: 0;
+  left: 129px;
+}
+.hexagon3 {
+  background-image: url(./img/svg/hexagon.svg);
+  width: 175px;
+  height: 202px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 54px 0 0 -38px;
+  position: relative;
+}
+.hexagon3 > object {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hexagon4 {
+  background-image: url(./img/svg/hexagon.svg);
+  width: 175px;
+  height: 202px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: -96px 0px 0 -88px;
+  position: relative;
+}
+.hexagon4 > object {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hexagon5 {
+  background: url(./img/svg/hexagon.svg) no-repeat center/cover;
+  width: 262px;
+  height: 302px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: -23px 0px 0 -3px;
+  position: relative;
+}
+.hexagon5 > object {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.circle {
+  width: 39px;
+  height: 39px;
+  background-color: #fc635e;
+  border-radius: 50%;
+  position: absolute;
+  top: 28px;
+  left: -19px;
+  display: flex;
+}
+.circle > object {
+  margin: auto;
+  overflow: hidden;
+}
+.hexagon5 > .circle {
+  top: 56px;
+  left: -18px;
+}
+.hexagon5 > .circle:last-child {
+  top: 275px;
+  left: 110px;
 }
